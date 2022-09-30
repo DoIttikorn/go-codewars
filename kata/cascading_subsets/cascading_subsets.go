@@ -1,22 +1,15 @@
 package kata
 
-import "fmt"
+func CascadingSubsets(arr []int, n int) (result [][]int) {
 
-func CascadingSubsets(arr []int, n int) [][]int {
-	var result [][]int
-	var loop int = len(arr) % n
-	for i := 0; i <= loop; i++ {
-		fmt.Println(i)
-		// var temp int
-		// if i > len(arr) {
-		// 	temp = len(arr)
-		// } else {
-		// 	temp = i + n
-		// }
-		result = append(result, arr[i:i+n])
-		fmt.Println(result)
+	for index := range arr {
+		if index+n > len(arr) {
+			break
+		}
+		result = append(result, arr[index:index+n])
+
 	}
-	return result
+	return
 }
 
 /*
