@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
-	. "github.com/Doittikorn/golang-codewars/kata/cascading_subsets"
+	. "github.com/Doittikorn/golang-codewars/codewars/cascading_subsets"
 )
 
 func referenceSolution(arr []int, n int) (o [][]int) {

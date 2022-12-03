@@ -1,7 +1,7 @@
 package kata_test
 
 import (
-	. "github.com/Doittikorn/golang-codewars/kata/is_palindrome"
+	. "github.com/Doittikorn/golang-codewars/codewars/is_palindrome"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )
